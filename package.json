@@ -1,21 +1,14 @@
 {
-    "name":        "Spawn",
-    "version":     "0.0.1",
+    "name": "@cloud-technology/subprocess-handler",
+    "version": "0.0.2",
     "description": "Asynchronous Subprocess Spawner & Handler",
-    "main":        "Start.js",
-    "scripts":     {
+    "main": "Start.js",
+    "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository":  {
-        "type": "git",
-        "url":  "git+https://github.com/cloud-hybrid/Node-Utility-Spawn.git"
-    },
-    "author":      "Jacob B. Sanders",
-    "license":     "MIT",
-    "bugs":        {
-        "url": "https://github.com/cloud-hybrid/Node-Utility-Spawn/issues"
-    },
-    "homepage":    "https://github.com/cloud-hybrid/Node-Utility-Spawn#readme",
+    "repository": "git+https://github.com/cloud-hybrid/subprocess-handler.git",
+    "author": "Jacob B. Sanders",
+    "license": "BSD-3-Clause",
     "bin": {
         "Spawn": "Start.js"
     }
